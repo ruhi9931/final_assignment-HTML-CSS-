@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.page3 {
+    width: 100%;
+    position: relative;
+    padding: 3%;
+}
+.page3 .head h3{
+    font-size: 20px;
+}
+.page3 .input{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.page3 .input input{
+    padding:2% 12%;
+}
+.page3 .nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.page3 .nav .a{
+    color: rgb(104, 223, 104);
+    font-weight: 600;
+}
+.page3 .nav .b{
+    font-weight: 600;
+}
+.page3 .dynamite{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.page3 .neha{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.page3 .jubin{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.page3 .shawn{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.page3 .discover{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    margin-bottom:3% ;
+}
+.page3 .discover .a{
+    color: rgb(104, 223, 104);
+    font-weight: 600;
+}
+.page3 .discover .b{
+    font-weight: 600;
+}
+.page3 .nav-con{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.page3 .img img{
+    width: 300px;
+    height: 250px;
+}
+.page3 .img{
+    display: flex;
+}
+.page3 .img .img-con{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+}
+.page3 .genres{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    margin-bottom:3% ;
+}
+.page3 .genres .a{
+    color: rgb(104, 223, 104);
+    font-weight: 600;
+}
+.page3 .genres .b{
+    font-weight: 600;
+}
+.page3 .imgg{
+    display: flex;
+    flex-wrap: wrap;
+}
+.page3 .imgg img{
+    height:100px;
+    width:100px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+@media (min-width:900px){
+    .page3{
+        font-size: 20px;
+    }
+    .page3 .imgg img{
+        width:300px;
+        height:200px;
+    }
+    .page3 .head h3{
+        font-size: 30px;
+        width:100%;
+    }
+    .page3 .nav p{
+        font-size: 28px;
+    }
+    .page3 .discover p{
+        font-size: 28px;
+    }
+    .page3 .genres p{
+        font-size: 28px;
+    }
+}
+.dynamite{
+    border: 1px solid black;
+    background-color: rgb(232, 245, 245);
+    padding: 10px;
+}
+.neha{
+    border: 1px solid black;
+    background-color: rgb(232, 245, 245);
+    padding: 10px;
+}
+.jubin{
+    border: 1px solid black;
+    background-color: rgb(232, 245, 245);
+    padding: 10px;
+}
+.shawn{
+    border: 1px solid black;
+    background-color: rgb(232, 245, 245);
+    padding: 10px;
+}

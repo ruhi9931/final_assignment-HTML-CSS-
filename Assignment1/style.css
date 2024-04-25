@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.page1{
+    width:100%;
+    position:relative;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding:2% 2%;
+    background-color: rgb(139, 48, 139);
+}
+.page1 .nav img{
+    height: 40px;
+    width: 40px;
+}
+.page1 .first .img img{
+    height: 150px;
+    width: 200px;
+}
+@media (min-width:800px){
+    .page1 .nav img{
+        height: 80px;
+        width: 80px;
+    }
+    .page1 .nav i{
+        font-size: 50px;
+        padding-top:10px;
+        color:#fff;
+    }
+    .page1 .first .one-group{
+        font-size: 25px;
+    }
+    .page1 .first .img img{
+        height: 200px;
+        width: 250px;
+    }
+    .page1 .second .sec-con {
+        font-size: 25px;
+        
+    }
+    .page1 .third .thi-con {
+        font-size: 25px;
+        
+    }
+}
+.nav i{
+    font-size: 20px;
+    padding-top:10px;
+    color:#fff;
+}
+.page1 div.first {
+    display: flex;
+    padding-top:6%;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 10%;
+}
+.page1 div.first div.one-group{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.page1 div.first div.one-group div.par1{
+    color:rgb(98, 199, 98);
+    font-weight: 600;
+    padding-bottom: 15%;
+}
+.page1 div.first div.one-group div.par2{
+    font-weight: 600;
+    padding-bottom: 5%;
+}
+.page1 .second .content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.page1 .second .sec-con{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    
+}
+.page1 .second .sec-con .a{
+    color: rgb(98, 199, 98);
+    font-weight: 600;
+}
+.page1 .second .sec-con .b{
+    font-weight: 600;
+}
+.page1 .second .content{
+    display: block;
+}
+
+.page1 .second .content .one{
+    display: flex;
+    padding-left:3px;
+    padding-bottom: 10px;
+}
+.page1 .second .content .one img{
+    height: 50px;
+    width: 50px;
+}
+.page1 .second .content .two img{
+    height: 50px;
+    width: 50px;
+}
+.page1 .second .content .three img{
+    height: 50px;
+    width: 50px;
+}
+.page1 .second .content .four img{
+    height: 50px;
+    width: 50px;
+}
+.page1 .second .content .two{
+    display: flex;
+    padding-left:3px;
+    padding-bottom: 10px;
+}
+.page1 .second .content .three{
+    display: flex;
+    padding-left:3px;
+    padding-bottom: 10px;
+}
+.page1 .second .content .four{
+    display: flex;
+    padding-left:3px;
+    padding-bottom: 10px;
+}
+.page1 .second .content .one .in{
+    padding-left:15px; 
+}
+.page1 .second .content .two .in{
+    padding-left:15px; 
+}
+.page1 .second .content .three .in{
+    padding-left:15px; 
+}
+.page1 .second .content .four .in{
+    padding-left:15px; 
+}
+.page1 .second{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.page1 .third .thi-con{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    
+}
+.page1 .third .thi-con .a{
+    color: rgb(98, 199, 98);
+    font-weight: 600;
+}
+.page1 .third .thi-con .b{
+    font-weight: 600;
+}
+.page1 .third .content .img1 img{
+    height:100px;
+    width:100px;
+}
+.page1 .third .content{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.page1 .third .content .img1 img{
+    padding-right: 10px;
+}
+
+@media (min-width:600px){
+    .page1 .third .content .img1 img{
+        height:200px;
+        width:200px;
+    }
+}
+/* .page1 .third .thi-con{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.page1 .third .thi-con .a{
+    color: rgb(98, 199, 98);
+    font-weight: 600;
+}
+.page1 .third .thi-con .b{
+    font-weight: 600;
+}
+.page1 .third .content{
+    display: flex;
+    padding-left: 10px;
+}
+
+.page1 .third .content .one{
+    padding-right: 2px;
+    flex-basis: 39%;
+}
+.page1 .third .content .two{
+    flex-basis: 39%;
+}
+.page1 .third {
+    padding-bottom: 20px;
+} */
+/* First Page End Here */

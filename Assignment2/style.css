@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.page2{
+    font-size: 30px;
+    width:100%;
+    padding-top: 5px;
+    margin-bottom: 60px;
+}
+.page2 .mood .mood-con{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.page2 .mood .mood-con .a{
+    color: rgb(98, 199, 98);
+    font-weight: 600;
+}
+.page2 .mood .mood-con .b{
+    font-weight: 600;
+}
+.page2 .mood .img{
+    display: flex;
+    padding-left: 10px;
+}
+.img img{
+    width: 200px;
+    height: 150px;
+    padding-right: 10px;
+}
+@media screen and (min-width:100px) {
+    .page2 .mood .img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img img{
+        width: 200px;
+        height: 150px;
+        padding-right: 10px;
+    }
+}
+
+.page2 .retro .retro-con{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.page2 .retro .retro-con .a{
+    color: rgb(98, 199, 98);
+    font-weight: 600;
+}
+.page2 .retro .retro-con .b{
+    font-weight: 600;
+}
+.page2 .retro .img{
+    display: flex;
+    padding-left: 10px;
+}
+.img img{
+    width: 200px;
+    height: 150px;
+    padding-right: 10px;
+}
+@media screen and (min-width:200px) {
+    .page2 .retro .img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img img{
+        width: 200px;
+        height: 150px;
+        padding-right: 10px;
+    }
+}
+
+
+.page2 .charts .charts-con{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.page2 .charts .charts-con .a{
+    color: rgb(98, 199, 98);
+    font-weight: 600;
+}
+.page2 .charts .charts-con .b{
+    font-weight: 600;
+}
+.page2 .charts .img{
+    display: flex;
+    padding-left: 10px;
+}
+.img img{
+    width: 200px;
+    height: 150px;
+    padding-right: 10px;
+}
+@media screen and (min-width:200px) {
+    .page2 .charts .img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img img{
+        width: 200px;
+        height: 150px;
+        padding-right: 10px;
+    }
+}
+
+
+.page2 .decade .decade-con{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.page2 .decade .decade-con .a{
+    color: rgb(98, 199, 98);
+    font-weight: 600;
+}
+.page2 .decade .decade-con .b{
+    font-weight: 600;
+}
+.page2 .decade .img{
+    display: flex;
+    padding-left: 10px;
+}
+.img img{
+    width: 200px;
+    height: 150px;
+    padding-right: 10px;
+}
+@media screen and (min-width:200px) {
+    .page2 .decade .img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img img{
+        width: 200px;
+        height: 150px;
+        padding-right: 10px;
+    }
+}
+
+
+.page2 .regional .regional-con{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.page2 .regional .regional-con .a{
+    color: rgb(98, 199, 98);
+    font-weight: 600;
+}
+.page2 .regional .regional-con .b{
+    font-weight: 600;
+}
+.page2 .regional .img{
+    display: flex;
+    padding-left: 10px;
+}
+.img img{
+    width: 200px;
+    height: 150px;
+    padding-right: 10px;
+}
+@media screen and (min-width:200px) {
+    .page2 .regional .img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img img{
+        width: 200px;
+        height: 150px;
+        padding-right: 10px;
+    }
+}
+/* .footer{
+    margin-top: 40px;
+    background-color: rgb(147, 70, 147);
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .icon{
+    padding-top: 50px;
+} */
+
+.footer{
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(167, 4, 167);
+    height: 45px;
+    width: 100%;
+    color: white;
+}
+.icon-footer{
+    font-size: 22px;
+    margin: auto;
+}
